@@ -4,8 +4,8 @@ def parabola (a,b,c,X,X1,n):
     x=np.linspace(X,X1,n)
     y=a*x**2+b*x+c
     plt.plot(x,y,label='парабола')
-    plt.xlabel('абцисса')
-    plt.ylabel('ордината')
+    plt.xlabel('ось абцисс')
+    plt.ylabel('ось ординат')
 
     plt.legend()
     plt.show()
@@ -16,8 +16,8 @@ def hyperbola (k,X,X1,n):
     x=np.linspace(X,X1,n)
     y=k/x
     plt.plot(x,y,label='гипербола')
-    plt.xlabel('абсцисса')
-    plt.ylabel('ордината')
+    plt.xlabel('ось абсцисс')
+    plt.ylabel('ось ординат')
 
     plt.legend()
     plt.show()
