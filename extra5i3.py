@@ -1,7 +1,8 @@
+import matplotlib.pyplot as plt
+import numpy as np
 def function(x1, x2, N, a, b):
     """input ends of a section, number of dots, a,b""" 
-    import matplotlib.pyplot as plt
-    import numpy as np
+
     x = np.linspace(x1, x2, N)
     y = np.zeros(N)
     for i in range (N):
