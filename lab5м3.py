@@ -1,6 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
 def circle (r,x1,y1):
-    import numpy as np
-    import matplotlib.pyplot as plt
+
     x=np.linspace(x1-r,x1+r,1000)
     y=np.linspace(y1-r,y1+r,1000)
     X,Y=np.meshgrid(x,y)
@@ -9,8 +10,7 @@ def circle (r,x1,y1):
     plt.show()
 circle(1,1,1)
 def ellipce(x1,y1,a,b,c=10,d=10):
-    import numpy as np
-    import matplotlib.pyplot as plt
+
     x=np.linspace(-c,c,1000)
     y=np.linspace(-d,d,1000)
     X,Y=np.meshgrid(x,y)
