@@ -38,8 +38,8 @@ def something(a,ph,m):
     
 def animate(i):
     smth.set_data(something(a=1,ph=i,m=i)) 
-ax.set_xlim(-2,2)
-ax.set_ylim(-2,2)
+ax.set_xlim(-1,1)
+ax.set_ylim(-1,1)
 plt.axis('equal')
 plt.grid()
 plt.legend()
