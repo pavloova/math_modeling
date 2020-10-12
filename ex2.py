@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt 
-t=np.linspace(0,365,1000)
+t=np.linspace(0,4*365,1000)
 def invest_volume(invest,t):
     dinvestdt=-k*invest*t
     return dinvestdt
