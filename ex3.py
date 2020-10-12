@@ -2,9 +2,9 @@ import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt 
 t=np.linspace(0,4.5,100)
-def velocity(v0,t):
-    v=v0+f/m*t
-    dmdt=f-k*v**2
+def velocity(v,t):
+    v1=v+f/m*t
+    dmdt=f-k*v1**2
     
     return dmdt
 
