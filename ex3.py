@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 t=np.linspace(0,4.5,100)
 def velocity(v,t):
     v1=v+f/m*t
-    dmdt=f-k*v1**2
+    dmvdt=f-k*v1**2
     
-    return dmdt
+    return dmvdt
 
 m=1
 v0=0
